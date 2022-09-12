@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  color: white;
+  background-color: #333333;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  
+}
+.header ul li {
+  margin: 20px;
+}
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+footer {
+  background: #333333;
+  color: white;
+  font-size: 11px;
+  font-family: "Kanit-ExtraLight";
+  text-align: right;
+  padding: 10px 50px;
+}
+
+footer span {
+  font-family: "Kanit-ExtraLightItalic";
+}

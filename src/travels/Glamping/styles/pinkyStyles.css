@@ -372,18 +372,6 @@ h2 {
     filter: blur(0.5px);
 }
 
-footer {
-    background: #333333;
-    color: white;
-    font-size: 11px;
-    font-family: "Kanit-ExtraLight";
-    text-align: right;
-    padding: 10px 50px;
-}
-
-footer span {
-    font-family: "Kanit-ExtraLightItalic";
-}
 
 .pocket-pain {
     display: flex;

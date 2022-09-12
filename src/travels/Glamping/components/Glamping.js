@@ -149,9 +149,6 @@ const Glamping = () => {
                 <p>$17.000</p>
             </div>
         </div>
-        <footer>
-            Derechos reservados por <span>Juancito</span> 2022 <i className="fa fa-copyright" aria-hidden="true"></i>
-        </footer>
         <script src="../../scripts/countdown.js"></script>
         <script src="../../scripts/fixedMessage.js"></script>
         </>
