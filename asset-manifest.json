@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/couple-travels/static/css/main.9edf9153.css",
-    "main.js": "/couple-travels/static/js/main.9474d2a2.js",
-    "static/js/787.48f24fc1.chunk.js": "/couple-travels/static/js/787.48f24fc1.chunk.js",
+    "main.css": "/couple-travels/static/css/main.69570daa.css",
+    "main.js": "/couple-travels/static/js/main.bc5fea58.js",
+    "static/js/787.66510d10.chunk.js": "/couple-travels/static/js/787.66510d10.chunk.js",
     "static/media/Bonfire.png": "/couple-travels/static/media/Bonfire.8e12ab6a22e810d886c7.png",
     "static/media/Banner.jpg": "/couple-travels/static/media/Banner.27cfc7f90c177198244e.jpg",
     "static/media/Parallax.png": "/couple-travels/static/media/Parallax.f8782d53cb87f5af225a.png",
@@ -36,14 +36,13 @@
     "static/media/Boat.png": "/couple-travels/static/media/Boat.9d833bba0aaa72c4118a.png",
     "static/media/Bus.jpg": "/couple-travels/static/media/Bus.4daff1f73dfb147977be.jpg",
     "static/media/Hiking.png": "/couple-travels/static/media/Hiking.55b9c72df109276c135a.png",
-    "static/media/logo.svg": "/couple-travels/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/couple-travels/index.html",
-    "main.9edf9153.css.map": "/couple-travels/static/css/main.9edf9153.css.map",
-    "main.9474d2a2.js.map": "/couple-travels/static/js/main.9474d2a2.js.map",
-    "787.48f24fc1.chunk.js.map": "/couple-travels/static/js/787.48f24fc1.chunk.js.map"
+    "main.69570daa.css.map": "/couple-travels/static/css/main.69570daa.css.map",
+    "main.bc5fea58.js.map": "/couple-travels/static/js/main.bc5fea58.js.map",
+    "787.66510d10.chunk.js.map": "/couple-travels/static/js/787.66510d10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9edf9153.css",
-    "static/js/main.9474d2a2.js"
+    "static/css/main.69570daa.css",
+    "static/js/main.bc5fea58.js"
   ]
 }
