@@ -68,3 +68,36 @@ footer {
 footer span {
   font-family: "Kanit-ExtraLightItalic";
 }
+
+.cardlist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 2%;
+}
+
+.card-container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.glamping-image {
+  margin-top: -140px;
+}
+
+.card-details {
+  position: absolute;
+  top: 252px;
+  color: white;
+  width: 100%;
+  background-color: black;
+}
+
+.card-container img {
+  width: 100%;
+  height: auto;
+}

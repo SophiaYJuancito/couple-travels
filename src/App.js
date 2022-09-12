@@ -1,12 +1,14 @@
 import './App.css';
-import Glamping from './travels/Glamping/components/Glamping';
 import { Routes, Route } from "react-router-dom";
+import Glamping from './travels/Glamping/components/Glamping';
+import Cards from './components/Cards';
 
 function App() {
   return (
     <div className="App">
       <Routes>  
         <Route exact path="/glamping" element={<Glamping/>}/>
+        <Route exact path="/" element={<Cards/>}/>
       </Routes>
     </div>
   );

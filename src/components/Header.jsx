@@ -6,7 +6,7 @@ const Header = () => {
         <div className='header'>
             <ul>
                 <li><Link to="/"> Home </Link></li>
-                <li><Link to="/glamping"> Glamping </Link></li>
+                {/* <li><Link to="/glamping"> Glamping </Link></li> */}
             </ul>
         </div>
     )
