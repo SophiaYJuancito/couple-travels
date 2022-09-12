@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/couple-travels/static/css/main.69570daa.css",
-    "main.js": "/couple-travels/static/js/main.bc5fea58.js",
+    "main.css": "/couple-travels/static/css/main.ca606640.css",
+    "main.js": "/couple-travels/static/js/main.d7839a6f.js",
     "static/js/787.66510d10.chunk.js": "/couple-travels/static/js/787.66510d10.chunk.js",
     "static/media/Bonfire.png": "/couple-travels/static/media/Bonfire.8e12ab6a22e810d886c7.png",
     "static/media/Banner.jpg": "/couple-travels/static/media/Banner.27cfc7f90c177198244e.jpg",
     "static/media/Parallax.png": "/couple-travels/static/media/Parallax.f8782d53cb87f5af225a.png",
+    "static/media/Glamping.png": "/couple-travels/static/media/Glamping.8d1d0ccc8f364a9e562b.png",
     "static/media/Kanit-BlackItalic.ttf": "/couple-travels/static/media/Kanit-BlackItalic.a7c561ef3b2759658a59.ttf",
     "static/media/Kanit-BoldItalic.ttf": "/couple-travels/static/media/Kanit-BoldItalic.927b59d31438cdaed223.ttf",
     "static/media/Kanit-ExtraBold.ttf": "/couple-travels/static/media/Kanit-ExtraBold.c4e2a525f567e676a819.ttf",
@@ -37,12 +38,12 @@
     "static/media/Bus.jpg": "/couple-travels/static/media/Bus.4daff1f73dfb147977be.jpg",
     "static/media/Hiking.png": "/couple-travels/static/media/Hiking.55b9c72df109276c135a.png",
     "index.html": "/couple-travels/index.html",
-    "main.69570daa.css.map": "/couple-travels/static/css/main.69570daa.css.map",
-    "main.bc5fea58.js.map": "/couple-travels/static/js/main.bc5fea58.js.map",
+    "main.ca606640.css.map": "/couple-travels/static/css/main.ca606640.css.map",
+    "main.d7839a6f.js.map": "/couple-travels/static/js/main.d7839a6f.js.map",
     "787.66510d10.chunk.js.map": "/couple-travels/static/js/787.66510d10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69570daa.css",
-    "static/js/main.bc5fea58.js"
+    "static/css/main.ca606640.css",
+    "static/js/main.d7839a6f.js"
   ]
 }
