@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a715006147614322758d",
+    "revision": "340a94d107483ab8f23b",
     "url": "/couple-travels/static/css/main.9df0fd0e.chunk.css"
   },
   {
-    "revision": "a715006147614322758d",
-    "url": "/couple-travels/static/js/main.3adf09ea.chunk.js"
+    "revision": "340a94d107483ab8f23b",
+    "url": "/couple-travels/static/js/main.25fd55e5.chunk.js"
   },
   {
     "revision": "0264dafd5f56aadc2207",
@@ -68,20 +68,12 @@ self.__precacheManifest = [
     "url": "/couple-travels/static/media/Bills.79b799e5.png"
   },
   {
-    "revision": "98e93fc09832d3891a57162b83ecb930",
-    "url": "/couple-travels/static/media/Kanit-Black.98e93fc0.ttf"
-  },
-  {
     "revision": "7c3d44c8821780dc2451c67cb30d31da",
     "url": "/couple-travels/static/media/Kanit-BoldItalic.7c3d44c8.ttf"
   },
   {
-    "revision": "26a1b414edb5f96f52933acbcdbbfa18",
-    "url": "/couple-travels/static/media/Kanit-ExtraLightItalic.26a1b414.ttf"
-  },
-  {
-    "revision": "2ec43223c5620d6cb2fc97adbab58902",
-    "url": "/couple-travels/static/media/Kanit-BlackItalic.2ec43223.ttf"
+    "revision": "98e93fc09832d3891a57162b83ecb930",
+    "url": "/couple-travels/static/media/Kanit-Black.98e93fc0.ttf"
   },
   {
     "revision": "41df63b2d1938bf065ba71700f32b623",
@@ -92,48 +84,48 @@ self.__precacheManifest = [
     "url": "/couple-travels/static/media/Kanit-Bold.69646b07.ttf"
   },
   {
-    "revision": "3b58ba9e1202872b29ee615e2cab2088",
-    "url": "/couple-travels/static/media/Kanit-LightItalic.3b58ba9e.ttf"
-  },
-  {
     "revision": "8b786d6635f731d5bfe226e9f776531b",
     "url": "/couple-travels/static/media/Kanit-ExtraLight.8b786d66.ttf"
   },
   {
-    "revision": "2fedce7deb446c41cc5274c226b43c04",
-    "url": "/couple-travels/static/media/Kanit-Medium.2fedce7d.ttf"
-  },
-  {
-    "revision": "eb18967912c9c66c98deec24bfe1efbd",
-    "url": "/couple-travels/static/media/Kanit-Light.eb189679.ttf"
+    "revision": "2ec43223c5620d6cb2fc97adbab58902",
+    "url": "/couple-travels/static/media/Kanit-BlackItalic.2ec43223.ttf"
   },
   {
     "revision": "681198abb02b3001bcd92b9437894450",
     "url": "/couple-travels/static/media/Kanit-Italic.681198ab.ttf"
   },
   {
-    "revision": "ba95370355da928d1c09da6a0a49a1d6",
-    "url": "/couple-travels/static/media/Kanit-Regular.ba953703.ttf"
+    "revision": "26a1b414edb5f96f52933acbcdbbfa18",
+    "url": "/couple-travels/static/media/Kanit-ExtraLightItalic.26a1b414.ttf"
+  },
+  {
+    "revision": "3b58ba9e1202872b29ee615e2cab2088",
+    "url": "/couple-travels/static/media/Kanit-LightItalic.3b58ba9e.ttf"
+  },
+  {
+    "revision": "eb18967912c9c66c98deec24bfe1efbd",
+    "url": "/couple-travels/static/media/Kanit-Light.eb189679.ttf"
+  },
+  {
+    "revision": "2fedce7deb446c41cc5274c226b43c04",
+    "url": "/couple-travels/static/media/Kanit-Medium.2fedce7d.ttf"
   },
   {
     "revision": "e1b3b87b0c17b0f670f5170e0a34eb93",
     "url": "/couple-travels/static/media/Kanit-MediumItalic.e1b3b87b.ttf"
   },
   {
-    "revision": "efc1b35c18175cae0b8a3d06e3025cbe",
-    "url": "/couple-travels/static/media/Kanit-SemiBold.efc1b35c.ttf"
-  },
-  {
     "revision": "1fecb41477cac535aeaf9b4f96890d80",
     "url": "/couple-travels/static/media/Kanit-SemiBoldItalic.1fecb414.ttf"
   },
   {
-    "revision": "a3fc746619e755e853818ee67924ebbe",
-    "url": "/couple-travels/static/media/DancingScript-Bold.a3fc7466.ttf"
+    "revision": "ba95370355da928d1c09da6a0a49a1d6",
+    "url": "/couple-travels/static/media/Kanit-Regular.ba953703.ttf"
   },
   {
-    "revision": "4878c050aa42659a505ce45884f008f8",
-    "url": "/couple-travels/static/media/DancingScript-Regular.4878c050.ttf"
+    "revision": "d903e1aee8365007ae713e8a32e31a6a",
+    "url": "/couple-travels/static/media/DancingScript-Medium.d903e1ae.ttf"
   },
   {
     "revision": "c0b1b7e615614217544a2f588cc18188",
@@ -144,12 +136,20 @@ self.__precacheManifest = [
     "url": "/couple-travels/static/media/Kanit-ThinItalic.49e6ab0a.ttf"
   },
   {
-    "revision": "7a221ed294fb3ebcfc999bb6b68c32b7",
-    "url": "/couple-travels/static/media/DancingScript-SemiBold.7a221ed2.ttf"
+    "revision": "efc1b35c18175cae0b8a3d06e3025cbe",
+    "url": "/couple-travels/static/media/Kanit-SemiBold.efc1b35c.ttf"
   },
   {
-    "revision": "d903e1aee8365007ae713e8a32e31a6a",
-    "url": "/couple-travels/static/media/DancingScript-Medium.d903e1ae.ttf"
+    "revision": "4878c050aa42659a505ce45884f008f8",
+    "url": "/couple-travels/static/media/DancingScript-Regular.4878c050.ttf"
+  },
+  {
+    "revision": "a3fc746619e755e853818ee67924ebbe",
+    "url": "/couple-travels/static/media/DancingScript-Bold.a3fc7466.ttf"
+  },
+  {
+    "revision": "7a221ed294fb3ebcfc999bb6b68c32b7",
+    "url": "/couple-travels/static/media/DancingScript-SemiBold.7a221ed2.ttf"
   },
   {
     "revision": "d6cb718be1c64aa71bfcf58115334482",
@@ -160,16 +160,16 @@ self.__precacheManifest = [
     "url": "/couple-travels/static/media/Banner.4d4581da.jpg"
   },
   {
+    "revision": "1f0970d87371d2e7b763b958bb3b342b",
+    "url": "/couple-travels/static/media/photo-bg.1f0970d8.jpg"
+  },
+  {
     "revision": "12c3280128bc0ef05b3e6a114b15b291",
     "url": "/couple-travels/static/media/background.12c32801.jpg"
   },
   {
     "revision": "50a42d014a495ded0e938ffb8380e1de",
     "url": "/couple-travels/static/media/header-lines.50a42d01.png"
-  },
-  {
-    "revision": "1f0970d87371d2e7b763b958bb3b342b",
-    "url": "/couple-travels/static/media/photo-bg.1f0970d8.jpg"
   },
   {
     "revision": "05d9155d24989d1e5b060f91e54f5bfe",
@@ -192,7 +192,7 @@ self.__precacheManifest = [
     "url": "/couple-travels/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "ecca471923e5a900d3dfd6c93997d62a",
+    "revision": "f7f4d7d3c1a6587c552a0efe37519c6a",
     "url": "/couple-travels/index.html"
   }
 ];
