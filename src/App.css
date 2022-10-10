@@ -69,6 +69,10 @@ footer span {
   font-family: "Kanit-ExtraLightItalic";
 }
 
+.container {
+  min-height: 830px;
+}
+
 .cardlist {
   display: flex;
   justify-content: center;

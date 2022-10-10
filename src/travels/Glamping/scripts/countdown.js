@@ -1,10 +1,23 @@
 var days, hours, minutes, seconds;
-const targetDate = new Date('2022-09-09');
+// const targetDate = new Date('2022-09-09');
 
 window.onload = function(){countdownTimer();}
 
+function getTargetDate() {
+    var targetDate = document.querySelectorAll('.countdown-container .countdown')[0].getAttribute("target-date");
+    return new Date(targetDate);
+}
+
 function timeToLaunch() {
     var currentDate = new Date();
+    var targetDate = getTargetDate();
+
+    if(targetDate-currentDate <= 0){
+        var aux = targetDate;
+        targetDate = currentDate;
+        currentDate = aux;
+    }
+
     var diff = (targetDate - currentDate) / 1000;
     diff = Math.floor(diff);
 
@@ -24,8 +37,8 @@ function timeToLaunch() {
 }
 
 function countdownTimer() {
-    timeToLaunch();
     try {
+        timeToLaunch();
         document.querySelectorAll('.countdown-container .countdown .days .number')[0].innerHTML = days;
         document.querySelectorAll('.countdown-container .countdown .hours .number')[0].innerHTML = hours;
         document.querySelectorAll('.countdown-container .countdown .minutes .number')[0].innerHTML = minutes;

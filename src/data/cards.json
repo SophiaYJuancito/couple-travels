@@ -4,6 +4,15 @@
         "date":"09-09-2022",
         "url":"/glamping",
         "image":"Glamping",
+        "itinerary":"Glamping",
         "imageClass":"glamping-image"
+    },
+    {
+        "name":"Roller-skate",
+        "date":"09-09-2022",
+        "url":"/roller-skate",
+        "image":"RollerSkate",
+        "itinerary":"RollerSkate",
+        "imageClass":"roller-skate-image"
     }
 ]

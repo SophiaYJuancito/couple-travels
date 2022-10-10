@@ -1,5 +1,4 @@
 body {
-    background-color: #F09D85 ;
     margin: 0;
     font-family: 'Kanit-Medium';
 }
@@ -8,7 +7,7 @@ body, html {
     height: 100%;
 }
 
-.parallax {
+#glamping .parallax {
     background-image: url('../images/Parallax.png');
     min-height: 1000px;
     height: 80%;
@@ -18,11 +17,11 @@ body, html {
     background-size: cover;
 }
 
-.banner {
+#glamping .banner {
     position: relative;
 }
 
-.banner-image {
+#glamping .banner-image {
     min-height: 500px;
     background-image: url('../images/Banner.jpg');
     background-position: center;
@@ -31,7 +30,7 @@ body, html {
     filter: brightness(0.3);
 }
 
-.banner-square {
+#glamping .banner-square {
     position: fixed;
     top: 100px;
     left: 0;
@@ -45,17 +44,17 @@ body, html {
     transition: left 1s ease-out 0s, position 1s ease-out 0s;
 }
 
-.banner-square.initial {
+#glamping .banner-square.initial {
     position: absolute;
     top: 250px;
     left: 200px;
 }
 
-.banner-text {
+#glamping .banner-text {
     position: relative;
 }
 
-.banner-text h1 {
+#glamping .banner-text h1 {
     font-family: "DancingScript-Regular";
     font-size: 35px;
     color: black;
@@ -64,7 +63,7 @@ body, html {
     margin: 0px;
 }
 
-h2 {
+#glamping h2 {
     font-family: "DancingScript-Regular";
     font-size: 30px;
     color: black;
@@ -75,22 +74,27 @@ h2 {
     margin-bottom: 40px;
 }
 
-.main-description {
+#glamping .main-description-container {
+    background-color: #F09D85;
+    padding: 30px 0;
+}
+
+#glamping .main-description {
     text-align: center;
     background-color: #F09D85;
     min-height: 350px;
     margin: 100px 25% 50px;
 }
-.main-description p {
+#glamping .main-description p {
     font-family: 'Kanit-Medium';
     font-size: 20px;
 }
-.main-description h2 span {
+#glamping .main-description h2 span {
     position: relative;
 }
 
 
-.main-description h2 span::after {
+#glamping .main-description h2 span::after {
     content: "";
     width: 35px;
     height: 3px;
@@ -100,36 +104,36 @@ h2 {
     left: -2px;
 }
 
-.main-description p span {
+#glamping .main-description p span {
     font-family: 'Kanit-Medium';
     font-size: 22px;
     font-weight: bolder;
 }
 
-.main-description ol span {
+#glamping .main-description ol span {
     position: relative;
 }
 
-.main-description ol {
+#glamping .main-description ol {
     list-style: none;
 }
-.main-description ol li {
+#glamping .main-description ol li {
     display: flex;
     justify-content: center;
 }
 
-.main-description ol li p {
+#glamping .main-description ol li p {
     position: relative;
     font-size: 16px;
 }
 
-.main-description ol li p span {
+#glamping .main-description ol li p span {
     position: relative;
     font-size: 16px;
     font-weight: normal;
 }
 
-.main-description ol li p::before {
+#glamping .main-description ol li p::before {
     content: "";
     width: 3px;
     height: 3px;
@@ -140,7 +144,7 @@ h2 {
     left: -10px;
 }
 
-.main-description ol span::after {
+#glamping .main-description ol span::after {
     content: "";
     width: 66px;
     height: 1px;
@@ -151,7 +155,7 @@ h2 {
     transform: rotate(-3deg);
 }
 
-.line {
+#glamping .line {
     position: absolute;
     width: 15px;
     height: 5px;
@@ -160,17 +164,17 @@ h2 {
     clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 90%);
 }
 
-.first-line {
+#glamping .first-line {
     bottom: -33px;
     right: 30px;
 }
 
-.second-line {
+#glamping .second-line {
     bottom: -33px;
     right: 40px;
 }
 
-.countdown-container {
+#glamping .countdown-container {
     background-color: #fcd2a4;
     display: flex;
     justify-content: center;
@@ -178,12 +182,12 @@ h2 {
     flex-wrap: wrap;
 }
 
-.countdown-container h2 {
+#glamping .countdown-container h2 {
     width: 100%;
     text-align: center;
 }
 
-.countdown-container ul {
+#glamping .countdown-container ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -192,12 +196,12 @@ h2 {
 
 }
 
-.countdown-container ul li {
+#glamping .countdown-container ul li {
     margin: 0 30px;
     
 }
 
-.countdown-container ul li .number {
+#glamping .countdown-container ul li .number {
     background-color: #f7b36a;
     width: 30px;
     height: 30px;
@@ -210,62 +214,63 @@ h2 {
     font-family: 'Kanit-Medium';
 }
 
-.countdown-container ul li .label {
+#glamping .countdown-container ul li .label {
     font-family: 'Kanit-Light';
     font-weight: bolder;
     text-align: center;
 }
 
-.activities {
+#glamping .activities {
     padding: 50px;
+    background-color: #F09D85;
 }
 
-.activities > p {
+#glamping .activities > p {
     text-align: center;
 }
 
-.activities h2 {
+#glamping .activities h2 {
     text-align: center;
 }
 
-.activities ul {
+#glamping .activities ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.activities ul li {
+#glamping .activities ul li {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
 }
 
-.activities ul li:nth-child(2n) {
+#glamping .activities ul li:nth-child(2n) {
     flex-direction: row-reverse;
 }
 
 
-.activities ul li:nth-child(2n) .description {
+#glamping .activities ul li:nth-child(2n) .description {
     border-left: solid 1px black;
 }
-.activities ul li:nth-child(2n-1) .description {
+#glamping .activities ul li:nth-child(2n-1) .description {
     border-right: solid 1px black;
 }
 
-.activities .description p {
+#glamping .activities .description p {
     margin: 0;
 }
-.activities .description h3 {
+#glamping .activities .description h3 {
     margin: 0;
 }
 
-.activities p.hour {
+#glamping .activities p.hour {
     font-family: 'Kanit-ExtraLight';
     font-size: 14px;
     letter-spacing: 1px;
 }
 
-.activities .description {
+#glamping .activities .description {
     max-width: 200px;
     min-width: 200px;
     color: white;
@@ -274,118 +279,118 @@ h2 {
     padding-bottom: 15px;
 }
 
-.kayak .description {
+#glamping .kayak .description {
     padding-left: 35px;
 }
 
-.kayak img {
+#glamping .kayak img {
     width: 130px;
     height: 100%;
     margin: auto 80px auto 25px;
 }
 
-.bonfire .description {
+#glamping .bonfire .description {
     padding-right: 35px;
 }
 
-.bonfire img  {
+#glamping .bonfire img  {
     width: 70px;
     height: 100%;
     margin: auto 115px auto 50px;
 }
 
-.arrive .description {
+#glamping .arrive .description {
     padding-left: 35px;
 }
 
-.arrive img  {
+#glamping .arrive img  {
     width: 130px;
     height: 100%;
     margin: auto 80px auto 25px;
 }
 
 
-.penhol .description {
+#glamping .penhol .description {
     padding-right: 35px;
 }
 
-.penhol img  {
+#glamping .penhol img  {
     width: 150px;
     height: 100%;
     margin: auto 45px auto 40px;
 }
 
-.mimir .description {
+#glamping .mimir .description {
     padding-right: 35px;
 }
 
-.mimir img  {
+#glamping .mimir img  {
     width: 100px;
     height: 100%;
     margin: auto 75px auto 60px;
     transform: rotate(20deg);
 }
 
-.hiking .description {
+#glamping .hiking .description {
     padding-right: 35px;
 }
 
-.hiking img  {
+#glamping .hiking img  {
     width: 100px;
     height: 100%;
     margin: auto 75px auto 60px;
 }
 
-.peach .description {
+#glamping .peach .description {
     padding-left: 35px;
 }
 
-.peach img  {
+#glamping .peach img  {
     width: 100px;
     height: 100%;
     margin: auto 75px auto 60px;
 }
 
-.movie .description {
+#glamping .movie .description {
     padding-left: 35px;
 }
 
-.movie img {
+#glamping .movie img {
     width: 80px;
     height: 100%;
     margin: auto 80px auto 75px;
 }
 
 
-.trip-start {
+#glamping .trip-start {
     background-color: white;
     display: grid;
     grid-template-columns: 75% 25%;
 }
-.trip-start .trip-text {
+#glamping .trip-start .trip-text {
     margin: 50px 200px 0px 100px;
 }
 
-.trip-start .trip-image {
+#glamping .trip-start .trip-image {
     width: 100%;
     height: auto;
     filter: blur(0.5px);
 }
 
 
-.pocket-pain {
+#glamping .pocket-pain {
     display: flex;
     text-align: center;
     position: relative;
 }
-.pocket-pain .glamping-prices {
+#glamping .pocket-pain .glamping-prices {
     width: 50%;
     background-color: #fcd2a4;
     margin: auto;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.pocket-pain .bus-prices {
+#glamping .pocket-pain .bus-prices {
     width: 50%;
     background-color: #f7b36a;
     margin: auto;
@@ -393,7 +398,7 @@ h2 {
     padding-bottom: 40px;
 }
 
-.pocket-pain .pocket-pain-img {
+#glamping .pocket-pain .pocket-pain-img {
     position: absolute;
     top: 50%;
     left: 50%;
