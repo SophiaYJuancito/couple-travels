@@ -1,5 +1,13 @@
 [
     {
+        "name":"Roller Skate",
+        "date":"06-25-2022",
+        "url":"/roller-skate",
+        "image":"RollerSkate",
+        "itinerary":"RollerSkate",
+        "imageClass":"roller-skate-card"
+    },
+    {
         "name":"Levit Glamping",
         "date":"09-09-2022",
         "url":"/glamping",
@@ -8,11 +16,11 @@
         "imageClass":"glamping-image"
     },
     {
-        "name":"Roller-skate",
-        "date":"09-09-2022",
-        "url":"/roller-skate",
-        "image":"RollerSkate",
-        "itinerary":"RollerSkate",
-        "imageClass":"roller-skate-image"
+        "name":"Tatacoa Desert",
+        "date":"10-22-2022",
+        "url":"/tatacoa-desert",
+        "image":"TatacoaDesert",
+        "itinerary":"TatacaoaDesert",
+        "imageClass":"tatacoa-desert-card"
     }
 ]

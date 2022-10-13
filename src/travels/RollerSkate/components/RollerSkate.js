@@ -1,20 +1,10 @@
 import React from 'react';
 import Slider from "react-slick";
 import "../styles/roller-styles.css";
-// import "../styles/pinkyStyles.css";
 
-import RollerSkate from "../../../data/RollerSkate.png";
-// import Trip from "../images/Trip.png";
-// import Boat from "../images/Boat.png";
-// import Bonfire from "../images/Bonfire.png";
-// import Popcorns from "../images/Popcorns.png";
-// import Pillow from "../images/Pillow.png";
-// import Kayak from "../images/Kayak.png";
-// import Hiking from "../images/Hiking.png";
-// import Peach from "../images/Peach.png";
-// import Bills from "../images/Bills.png";
+import RollerSkateImg from "../../../data/RollerSkate.png";
 
-const Glamping = () => {
+const RollerSkate = () => {
 
     var settings = {
         dots: true,
@@ -53,7 +43,7 @@ const Glamping = () => {
             </div>
             <div className='star-container'>
                 <div className="roller-images">
-                    <img className="roller-skate-image" src={RollerSkate} alt="roller-skate-image"/>
+                    <img className="roller-skate-image" src={RollerSkateImg} alt="roller-skate-image"/>
                 </div>
                 <div className="star one"></div>
                 <div className="star two"></div>
@@ -78,4 +68,4 @@ const Glamping = () => {
     );
 }
 
-export default Glamping;
+export default RollerSkate;

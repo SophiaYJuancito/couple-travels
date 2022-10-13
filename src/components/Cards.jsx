@@ -34,11 +34,11 @@ const Cards = () => (
                             {current.name}<br/>
                             {current.date}<br/>
                         </div>
-                        <div className="itinerary">
+                        {/* <div className="itinerary">
                             <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                 Launch demo modal
                             </button>
-                        </div>
+                        </div> */}
                     </Link>
                 </div>
             );

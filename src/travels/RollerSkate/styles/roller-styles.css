@@ -1,9 +1,10 @@
 #roller-skate {
     overflow: hidden;
     background-color: #040126;
+    text-align: center;
 }
 
-.roller-skate-image {
+.roller-skate-card {
     height: 261px !important;
     width: 500px !important;
     margin-left: -80px;
@@ -61,6 +62,7 @@
 }
 
 #roller-skate .countdown-container ul {
+    padding: 0;
     list-style: none;
 }
 
@@ -92,7 +94,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: rotate(45deg) translate(-93px,122px) 
+    transform: rotate(45deg) translate(-93px,122px); 
 }
 
 #roller-skate .countdown-container::after {
