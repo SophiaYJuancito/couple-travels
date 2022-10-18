@@ -141,3 +141,119 @@
     top: 40%;
     left: -10px;
 }
+
+#desert .data {
+    padding: 50px 150px;
+    text-align: left;
+}
+
+#desert .data h3 {
+    margin: 0;
+    font-size: 70px;
+}
+
+#desert .data h4 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: normal;
+}
+
+#desert .data p {
+    font-size: 25px;
+}
+
+#desert .data table {
+    width: 100%;
+}
+
+#desert .data table tr td:last-child {
+    text-align: right;
+}
+
+#desert .counts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#desert .counts .col:first-child {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: right;
+}
+
+#desert .counts .col:first-child label:first-child {
+    margin-right: 135px;
+}
+
+#desert .counts .col:nth-child(2) {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    text-align: right;
+}
+
+#desert .counts hr {
+    width: 100%;
+}
+
+#desert .counts label {
+    font-size: 20px;
+    
+}
+
+#desert .counts p {
+    margin: 0;
+    font-size: 20px;
+}
+
+#desert .counts .total {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: right;
+}
+
+#desert .counts .total label {
+    width: 70%;
+    font-size: 30px;
+    margin-right: 158px;
+}
+
+#desert .counts .total p {
+    width: 20%;
+    font-size: 30px;
+}
+
+
+#desert .firms {
+    padding: 50px 150px;
+    text-align: left;
+}
+
+#desert .firms h3 {
+    margin: 0;
+    font-size: 70px;
+}
+
+#desert .firms h4 {
+    font-size: 35px;
+    margin: 0;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+#desert .firms p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: normal;
+}
+
+#desert .firms img {
+    margin-left: -45px;
+}
+
+#desert .firms .disclaimer p {
+    font-size: 15px;
+    color: grey;
+}
