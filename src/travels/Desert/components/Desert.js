@@ -4,6 +4,7 @@ import "../styles/desert.css";
 // import HeaderImg from "../../../data/TatacoaDesert.png";
 import activitiesOne from "../images/activities-1.jpg";
 import activitiesTwo from "../images/activities-2.jpg";
+import firms from "../images/firms.png";
 
 const Desert = () => {
 
@@ -84,25 +85,36 @@ const Desert = () => {
                     </table>
                     <hr/>
                     <div className="counts">
-                        <label>SUBTOTAL</label><p>490.000 COP</p>
-                        <label>POSIBLES GASTOS EXTRA</label><p>$ 10.000</p>
+                        <div className="col">
+                            <label>SUBTOTAL</label>
+                            <label>POSIBLES GASTOS EXTRA</label>
+                        </div>
+                        <div className="col">
+                            <p>490.000 COP</p>
+                            <p>$ 10.000</p>
+                        </div>
                         <hr/>
-                        <label>Total:</label><p className="total">$500.000 COP</p>
+                        <div className="total">
+                            <label>Total:</label>
+                            <p>$500.000 COP</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className="firms">
-                <h2>Aprobación</h2>
-                <h3>Por ultimo, juancito debe de aceptar está propuesta si esta de acuerdo.</h3>
+                <h3>Aprobación</h3>
+                <h4>Por ultimo, juancito debe de aceptar está propuesta si esta de acuerdo.</h4>
                 <p>Para hacer la reserva del viaje podemos pagar 50% ahora y 50% dias antes del viaje. O un 30% ahora y 70% dias antes. Todo depende del estado actual de nuestros bolsillos. Tambien recibimos un 10% de descuento por ser proximamente mi cumpleaños.</p>
-                {/* FIRMAS */}
-                <p className="disclaimer">
-                    Consideraciones:
-                </p>
-                <br/>
-                <p>
-                Lo de que Juancito viaje ambas veces en la ventana puede cambiar, ya que no es justo para sophie que disfruta mucho más del paisaje, en cambio, Juancito se queda dormido. Esta vez Juancito no podrá consentir perros (si es que hay) por mas de 5 minutos, pero en cambio si puede consentir a Sophie por tiempo ilimitado. Y por ultimo, al ser un desierto, habrá mucho frio en la noche por lo que Juancito tendra que hacer su función de cucharita grande. Fin.
-                </p>
+                <img src={firms} alt="couple-firms"/>
+                <div className="disclaimer">
+                    <p>
+                        Consideraciones:
+                    </p>
+                    <br/>
+                    <p>
+                        Lo de que Juancito viaje ambas veces en la ventana puede cambiar, ya que no es justo para sophie que disfruta mucho más del paisaje, en cambio, Juancito se queda dormido. Esta vez Juancito no podrá consentir perros (si es que hay) por mas de 5 minutos, pero en cambio si puede consentir a Sophie por tiempo ilimitado. Y por ultimo, al ser un desierto, habrá mucho frio en la noche por lo que Juancito tendra que hacer su función de cucharita grande. Fin.
+                    </p>
+                </div>
             </div>
                 
             {/* <div className="roller-gallery">
