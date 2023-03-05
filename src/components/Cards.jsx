@@ -1,9 +1,35 @@
 import React from "react";
+import "./styles/homeStyles.css";
 import cardlist from "../data/cards.json";
 import { Link } from 'react-router-dom';
 
 const Cards = () => (
     <div className="cardlist">
+        <div className="next-meeting">
+            <div className="countdown-container">
+                {/* <div className="heart-shape"></div> */}
+                <h2>Faltan:</h2>
+                <ul className="countdown" target-date="2023-02-25, 22:40:00 GMT-5">
+                    <li className="days dots">
+                        <div className="number">0</div>
+                        <div className="label">Días</div>
+                    </li>
+                    <li className="hours dots">
+                        <div className="number">0</div>
+                        <div className="label">Horas</div>
+                    </li>
+                    <li className="minutes dots">
+                        <div className="number">0</div>
+                        <div className="label">Min.</div>
+                    </li>
+                    <li className="seconds">
+                        <div className="number">0</div>
+                        <div className="label">Seg.</div>
+                    </li>
+                </ul>
+                <h2>Para vernos :3</h2>
+            </div>
+        </div>
         {cardlist.map((current,index)=>{
             const graphImage = require('../data/' + current.image + '.png');
             // const itineraryImage = require('../travels/' + current.image + '/images/itinerary.png');
@@ -34,6 +60,7 @@ const Cards = () => (
                             {current.name}<br/>
                             {current.date}<br/>
                         </div>
+                        M
                         {/* <div className="itinerary">
                             <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                                 Launch demo modal

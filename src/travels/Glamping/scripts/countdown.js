@@ -1,6 +1,6 @@
 var days, hours, minutes, seconds;
-// const targetDate = new Date('2022-09-09');
-
+// const targetDate = new Date('2023-02-25, 23:45:00 GMT-5');
+// ----------------------------'YYYY-MM-DD, HH:MM:SS GMT-5'---------------------------
 window.onload = function(){countdownTimer();}
 
 function getTargetDate() {
